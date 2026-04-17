@@ -28,21 +28,21 @@ book:
 
   date: today
   chapters:
-    - indice.qmd
+    - index.qmd
     - capitulos/01-introduccion.qmd
-    - capitulos/02-estado-cuestion.qmd
+   # - capitulos/02-estado-cuestion.qmd
     - capitulos/03-metodologia.qmd
-    - capitulos/04-predvoc-skos.qmd
-    - capitulos/05-predvoc-owl.qmd
-    - capitulos/06-predrev-map.qmd
-    - capitulos/07-implementacion.qmd
-    - capitulos/08-resultados.qmd
-    - capitulos/09-conclusiones.qmd
+   # - capitulos/04-predvoc-skos.qmd
+   # - capitulos/05-predvoc-owl.qmd
+   # - capitulos/06-predrev-map.qmd
+   # - capitulos/07-implementacion.qmd
+   # - capitulos/08-resultados.qmd
+   # - capitulos/09-conclusiones.qmd
     - referencias.qmd
 
 bibliography: referencias.bib
 csl: apa.csl
-
+lang: es
 format:
   pdf:
     documentclass: scrreprt
@@ -52,17 +52,11 @@ format:
     number-sections: true
     number-depth: 3
     link-citations: true
+    latex-auto-install: false
     linkcolor: blue
     urlcolor: blue
-    lang: es-ES
     fig-cap-location: bottom
     tbl-cap-location: top
     include-in-header:
       text: |
-        \usepackage[spanish]{babel}
         \usepackage{csquotes}
-  
-  docx:
-    toc: true
-    number-sections: true
-    lang: es-ES

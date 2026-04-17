@@ -4,3 +4,5 @@ _salida/
 *.log
 *.out
 *.toc
+
+/.quarto/

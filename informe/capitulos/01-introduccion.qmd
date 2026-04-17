@@ -1,3 +1,9 @@
 # Introducción
 
-## Contexto
+## Contexto del problema
+
+Las revistas depredadoras representan una amenaza creciente para la integridad del sistema de comunicación científica [@grudniewiczPredatoryJournalsNo2019].
+
+## Objetivos
+
+Este trabajo tiene como objetivo diseñar e implementar un sistema de vocabularios semánticos para la identificación de prácticas editoriales depredadoras.

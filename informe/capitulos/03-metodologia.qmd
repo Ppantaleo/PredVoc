@@ -1,0 +1,7 @@
+## Preparación del entorno de escritura académica
+
+Para la elaboración del presente trabajo se configuró un entorno de redacción académica basado en herramientas de código abierto que garantizan reproducibilidad y control de versiones. Se utilizó Quarto como sistema de publicación científica, configurado en modo `book` para gestionar la estructura de capítulos del TFM. La salida se genera en formato PDF mediante el motor LuaLaTeX, cumpliendo con los requisitos formales de presentación de la UC3M.
+
+La gestión bibliográfica se implementó mediante Zotero 9.0 con el complemento Better BibTeX, que permite la exportación automática de referencias en formato BibTeX. Esta configuración establece un flujo sincronizado: cada referencia añadida a la colección "PredVoc" en Zotero se exporta automáticamente al archivo `referencias.bib`, que Quarto procesa para generar las citas y la bibliografía final según estilo APA. La fórmula de claves de citación configurada (`auth.lower + shorttitle(3,3) + year`) genera identificadores únicos y descriptivos que facilitan la redacción.
+
+El proyecto completo se aloja en un repositorio GitHub bajo licencia MIT, permitiendo el versionado incremental de todos los componentes: archivos Quarto (`.qmd`), configuración del proyecto (`_quarto.yml`), bibliografía, y vocabularios RDF. Esta infraestructura no solo documenta la evolución del trabajo, sino que constituye en sí misma un ejemplo de buenas prácticas en investigación reproducible aplicada a las ciencias de la información.
