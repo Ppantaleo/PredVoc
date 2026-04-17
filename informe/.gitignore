@@ -1,0 +1,6 @@
+_salida/
+.quarto/
+*.aux
+*.log
+*.out
+*.toc

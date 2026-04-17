@@ -1,0 +1,3 @@
+# Resumen {.unnumbered}
+
+Sistema de vocabularios semánticos para identificación de prácticas editoriales depredadoras.

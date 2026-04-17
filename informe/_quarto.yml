@@ -1,0 +1,68 @@
+project:
+  type: book
+  output-dir: _salida
+
+book:
+  title: "PredVoc: Diseño, implementación y validación de un vocabulario controlado en SKOS para la identificación de prácticas editoriales depredadoras en revistas científicas"
+  author:
+    - name: "Patricio Iván Pantaleo"
+      email: "patricio@pantaleo.ar"
+      orcid: "0000-0002-8104-8975"
+      affiliation:
+        - name: "UC3M - Universidad Carlos III de Madrid"
+          department: "Escuela de Postgrado de Humanidades y Comunicación"
+          city: "Madrid"
+          country: "España"
+      url: "https://patricio.pantaleo.ar"
+      corresponding: true
+      roles:
+      - conceptualization
+      - methodology
+      - software
+      - investigation
+      - formal analysis
+      - data curation
+      - visualization
+      - writing – original draft
+      - writing – review & editing
+
+  date: today
+  chapters:
+    - indice.qmd
+    - capitulos/01-introduccion.qmd
+    - capitulos/02-estado-cuestion.qmd
+    - capitulos/03-metodologia.qmd
+    - capitulos/04-predvoc-skos.qmd
+    - capitulos/05-predvoc-owl.qmd
+    - capitulos/06-predrev-map.qmd
+    - capitulos/07-implementacion.qmd
+    - capitulos/08-resultados.qmd
+    - capitulos/09-conclusiones.qmd
+    - referencias.qmd
+
+bibliography: referencias.bib
+csl: apa.csl
+
+format:
+  pdf:
+    documentclass: scrreprt
+    pdf-engine: lualatex
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    number-depth: 3
+    link-citations: true
+    linkcolor: blue
+    urlcolor: blue
+    lang: es-ES
+    fig-cap-location: bottom
+    tbl-cap-location: top
+    include-in-header:
+      text: |
+        \usepackage[spanish]{babel}
+        \usepackage{csquotes}
+  
+  docx:
+    toc: true
+    number-sections: true
+    lang: es-ES
